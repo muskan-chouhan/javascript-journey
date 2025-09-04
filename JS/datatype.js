@@ -1,7 +1,5 @@
 //q1 Number to String
 let num = 100;
-const meraNaam= ['Muskan', 'Chouhan'];
-console.log(meraNaam);
 
 let stringInNumber = String(num);
 console.log(typeof stringInNumber);
