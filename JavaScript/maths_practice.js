@@ -10,3 +10,6 @@ console.log(Math.min(3, 7, 2)); // ?
 
 let randomNum = Math.floor(Math.random() * 10);
 console.log(randomNum);
+
+
+//
