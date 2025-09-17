@@ -9,7 +9,7 @@ const students = [
             english:60
         },
     },
-        {
+    {
         id: 2,
         name: "anyaa",
         age: 19,
@@ -19,8 +19,8 @@ const students = [
             english:80
         },
     },
-        {
-        id: 1,
+    {
+        id: 3,
         name: "nikita",
         age: 18,
         marks:{
@@ -29,6 +29,21 @@ const students = [
             english:40
         },
     },
+        {
+        id: 4,
+        name: "vishal",
+        age: 18,
+        marks:{
+            maths:30,
+            science:80,
+            english:40
+        },
+    },
 ]
 
-students[1].name;
+console.log(students[1].name);
+
+console.log(students[2].marks.maths);
+console.log(Object.keys(students[0])); 
+console.log(students[0].hasOwnProperty("age")); // true
+
