@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai or js</title>
+</head>
+<body>
+    <h1>chai or javascript</h1>
+    <button class="btn">stop</button>
+
+    <h2>0</h2>
+
+</body>
+<script>
+/*
+const changeMe = function () {
+ document.querySelector('h1').innerHTML = "chai or code";
+
+}
+setTimeout(changeMe,3000)
+*/
+
+
+/*
+const changetext = function (){
+    document.querySelector('h1').innerHTML = "hlw devlopers"
+}
+const stop = setTimeout(changetext,5000)
+
+    document.querySelector('.btn').addEventListener('click', function(){
+        clearTimeout(stop)
+    })
+
+*/
+
+
+let count = 0;
+
+const counterId = setInterval(function() {
+    count = count + 1; // increase number
+    document.querySelector('h2').innerText = count; // show on screen
+}, 1000);
+
+// stop button
+document.querySelector('.btn').addEventListener('click', function(){
+    clearInterval(counterId);
+});
+
+</script>
+</html>    
