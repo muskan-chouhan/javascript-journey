@@ -68,7 +68,3 @@ const addtwo = function(num){           //function expression
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d

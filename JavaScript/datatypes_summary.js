@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 //  #primtive datatypes (call by value)
-=======
-//  primtive datatypes (call by value)
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d
 
 //7 types :number,boolean,null,symbol,undefined,string,bigint
 
@@ -34,11 +30,6 @@
 
 //console.log(typeof score);
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d
 // ----------------Practuce question--------------------------------
 
 //q1

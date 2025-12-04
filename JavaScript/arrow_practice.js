@@ -49,7 +49,3 @@ const getUser = () => ({course: "JavaScript", duration: "2 months"});
 console.log(getUser());
 
 
-<<<<<<< HEAD
-=======
- 
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d

@@ -46,8 +46,4 @@ console.log(`My hobby is ${hobby2}`);
 
 
 
-<<<<<<< HEAD
 // ---------------- Level 3 ---------------- variable_lvl3.js
-=======
-// ---------------- Level 3 ---------------- variable_lvl3.js
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d

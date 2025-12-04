@@ -6,11 +6,7 @@ const course = {
 }
 
 const {couserInstructore:instructore} = course   //destructure
-<<<<<<< HEAD
 console.log(instructore);
-=======
-console.log(instructore); 
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d
 
 
 //api consept

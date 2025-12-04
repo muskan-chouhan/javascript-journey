@@ -82,10 +82,6 @@ handelObject({
 const myNewArray = [1, 2, 3, 4, 5,6]
 function returnsecondprise(getArry){
  return getArry[1]
-<<<<<<< HEAD
 }
-=======
-}                         
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d
 // console.log(returnsecondprise(myNewArray));
 console.log(returnsecondprise([2,4,6,8]));  //direclt paas array

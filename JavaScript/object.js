@@ -6,27 +6,15 @@ const mysym = Symbol("key1")  // symbol declartion
 
 const jsUser = {           //Object literal
     name : "muskan",
-<<<<<<< HEAD
     "full_name": "muskan chouhan",
-=======
-    "half name": "muskan chouhan",   // rare cases
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d
     age : 18,
     email : "muskan@gmail.com",
     isLoggedIn : false,
     [mysym] : "mykey1",  /// add symbol
 
 }
-<<<<<<< HEAD
 
 console.log(jsUser.email)
-=======
-let newname = jsUser["age"];
-
-console.log(jsUser.email)    // dot se acess krte h to dot means string hota hai 
-console.log(jsUser["half name"]);
-
->>>>>>> 2451874f3cfa6e104b09dbf12da056490c4dee0d
 console.log(jsUser["email"])
 console.log(jsUser[mysym])
 
